@@ -1,0 +1,250 @@
+body {
+    font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    text-align: center;
+	width=100%;
+}
+
+a {
+	color: #E4E400;
+}
+
+#form2 {
+	color: #ffffff;
+    border:2px solid #000000;
+	background-color: #040692;
+    width:350px;
+	height:150px;
+    margin:auto;
+}
+
+#form2 ol{
+    list-style:none;
+	margin: 28px 0 0 0;	
+}
+#form2 ol li{
+    padding-bottom:10px;
+}
+#form2 ol li label{
+	font-weight: bold;
+    width:70px;
+    float:left;
+    text-align:left;
+}
+#form2 input[type=text] {
+    border:1px solid #CCCCCC;
+}
+#form2 textarea {
+	resize: none;
+}
+
+#form2 input.btn {
+    padding:5px;
+    color:#FFFFFF;
+	background-color:#366E0B;
+    border:1px solid #000000;
+}
+#top-bar {
+    height: 100px;
+    background-color: #9900CC;
+    background-repeat: repeat-x;
+}
+
+#top-bar a {
+    border: 0px;
+}
+
+#top-bar a:hover {
+    background-color: transparent;
+}
+
+#bar-option {
+    position: absolute;
+    right: 0;
+    padding: 30px 30px 0 0;
+}
+
+#bar-option a {
+    color: #FF0000;
+	display: block;
+    margin: 0 0 4px 0;
+}
+
+#logo {
+    max-width: 1000px;
+    width: expression(document.body.clientWidth > 900 ? "900px" : "auto");
+    text-align: left;
+}
+
+#logo img {
+    margin: 10px 0 0 10px; 
+}
+
+#menu-bar{
+    background-color: #DFDFDF;
+    background-image: url("/images/menu-background.png");
+    background-repeat: repeat-x;
+    text-align: center;
+}
+
+#menu-bar table {
+    height: 25px;
+    max-width: 900px;
+    width: expression(document.body.clientWidth > 900 ? "900px" : true);
+    border-left: 1px solid #B6B6B6;
+}
+
+#menu-bar td {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    width: 10%;
+    border-right: 1px solid #B6B6B6;
+    cursor: pointer;
+}
+
+#menu-bar td:hover {
+    background-image: url("/templates/ign/images/menu-background-highlight.png");
+    background-repeat: repeat-x;
+    background-color: transparent;
+}
+
+#menu-bar a, #menu-bar a:visited {
+    display: block;
+    color: #606060;
+    text-decoration: none;
+    margin: 4px 0 0 0;
+    border: 0px;
+}
+
+#menu-bar a:hover {
+    background-color: transparent;
+}
+
+#sub-menu{
+	margin: 10px 20px 0px 0px;
+	padding: 0px;
+    float: right;
+
+}
+
+#sidebar {
+    
+	padding: 6px;
+    color: #6C6CA2;
+	list-style: none;
+    background-color: #BA32FF;
+    border: 1px solid #E4E400;
+    margin: 60px -150px 30px 20px;
+    float: right;
+    width: 220px;
+}
+
+#sidebar h1 {
+    color: Black;
+	margin: 0 10px 15px 10px;
+	text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#sidebar h2 {
+	margin: 4px 10px 5px 10px;
+	text-align: right;
+    color: Black;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+#sidebar a, #sidebar a:visited {
+    font-weight: normal;
+    text-decoration: none;
+    color: Black;
+    //border-bottom: 1px dotted #555F55;
+}
+
+#front-page {
+    //margin-right: 270px;
+	padding-top:60px;
+	padding-left:120px;
+}
+
+#travesses{
+    background-color: #BA32FF;
+	border-collapse:collapse;
+	text-align: center;
+	width: 900px;
+}
+#table4{
+	background-color: #BA32FF;
+	width: 800px;
+	text-align: center;
+	border-collapse:collapse;
+}
+
+#content {
+
+    max-width: 1500px;
+    width: expression(document.body.clientWidth > 900 ? "900px" : true);
+    text-align: left;
+}
+
+#field1{
+    height: 150px;
+    width: 400px;
+}
+#field2{
+    height: 75px;
+    width: 400px;
+}
+h1 {
+    color: #000000;
+    font-size: 20px;
+    margin: 0 0 15px 0;    
+}
+
+h2 {
+    color: #55555F;
+    font-size: 16px;
+    margin: 0 0 7px 0;    
+}
+
+h3 {
+    font-weight: bold;
+	 font-size: 16px;
+	color: #55555F;
+}
+
+h4 {
+    color: #55555F;
+}
+
+h5 {
+    color: #55555F;
+}
+
+h6 {
+    color: #55555F;
+}
+
+p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+#footer{
+    font-size: 12px;
+    margin: 30px 0 30px 0;
+    clear: both;
+
+}
+
+#footer a, #footer a:visited{
+   color: #294A29;
+   border: 0px;
+   background-color: transparent;
+}
